@@ -4,15 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). If you introduce breaking changes, please group them together in the "Changed" section using the **BREAKING:** prefix.
 
-## [Unreleased]
+## [v1.19.0] - 2026-03-26
 
 ### Added
+* Add filter for data viewer ([#1757](https://github.com/sassoftware/vscode-sas-extension/pull/1757))
+* Add keyboard accessibility / tooltips for table header ([#1743](https://github.com/sassoftware/vscode-sas-extension/pull/1743))
+* Allow running Python code files in SAS Content ([#1815](https://github.com/sassoftware/vscode-sas-extension/pull/1815))
 
-- Add support for filtering table results ([#1757](https://github.com/sassoftware/vscode-sas-extension/pull/1757))
+### Fixed
+* Syntax highlighter no longer handles if/then/else ([#1718](https://github.com/sassoftware/vscode-sas-extension/issues/1718))
+* Correctly render katex symbols on html export ([#1734](https://github.com/sassoftware/vscode-sas-extension/pull/1734))
+* Fix misc selection issues ([#1748](https://github.com/sassoftware/vscode-sas-extension/pull/1748))
+* Fix sasprogramfile macro ([#1774](https://github.com/sassoftware/vscode-sas-extension/pull/1774))
 
-### Changed
-
-- Update pubsdata files to use the latest version (2026.01) of the SAS documentation for procedures, statements, and functions ([#1770](https://github.com/sassoftware/vscode-sas-extension/pull/1770))
+### Chore
+* Update table filter docs ([#1806](https://github.com/sassoftware/vscode-sas-extension/pull/1806))
+* Clarify sas options footnote ([#1816](https://github.com/sassoftware/vscode-sas-extension/pull/1816))
+* Updating pubsdata to use latest SAS doc version ([#1770](https://github.com/sassoftware/vscode-sas-extension/pull/1770))
+* Move itc script to ps1 file ([#1747](https://github.com/sassoftware/vscode-sas-extension/pull/1747))
 
 ## [v1.18.0] - 2025-12-01
 
